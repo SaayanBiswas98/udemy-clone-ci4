@@ -1,0 +1,722 @@
+CRITICAL - 2024-02-08 02:14:15 --> Error: Class "App\Controllers\Course" not found
+in APPPATH\Controllers\Home.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('4')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:14:38 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\Home.php on line 43.
+ 1 APPPATH\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('4')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:21:49 --> ErrorException: Undefined variable $chapter
+in APPPATH\Views\front\video.php on line 24.
+ 1 APPPATH\Views\front\video.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chapter', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:24:08 --> ErrorException: Undefined variable $chapters
+in APPPATH\Views\front\video.php on line 24.
+ 1 APPPATH\Views\front\video.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chapters', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:24:52 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Views\front\video.php on line 24.
+ 1 APPPATH\Views\front\video.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:32:19 --> ErrorException: Undefined variable $status
+in APPPATH\Views\front\video.php on line 26.
+ 1 APPPATH\Views\front\video.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:36:20 --> ErrorException: Attempt to read property "title" on array
+in APPPATH\Controllers\Home.php on line 41.
+ 1 APPPATH\Controllers\Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on array', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:36:51 --> ErrorException: Attempt to read property "name" on array
+in APPPATH\Controllers\Home.php on line 41.
+ 1 APPPATH\Controllers\Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:37:09 --> ErrorException: Attempt to read property "status" on null
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status" on null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:37:25 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:37:48 --> ErrorException: Undefined array key "status"
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:38:48 --> ErrorException: Undefined array key "status"
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:39:08 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:41:51 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-08 02:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 02:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-08 02:48:13 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\video.php on line 26.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 4 APPPATH\Controllers\Home.php(48): view('front/video', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:48:36 --> ErrorException: Undefined array key "status"
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:50:41 --> ErrorException: Attempt to read property "status" on array
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status" on array', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:50:58 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\video.php on line 26.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 4 APPPATH\Controllers\Home.php(48): view('front/video', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:51:18 --> ErrorException: Undefined array key "status"
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:51:47 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\video.php on line 26.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 4 APPPATH\Controllers\Home.php(48): view('front/video', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:52:28 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\video.php on line 26.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 4 APPPATH\Controllers\Home.php(48): view('front/video', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:55:52 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\video.php on line 26.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 4 APPPATH\Controllers\Home.php(48): view('front/video', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 02:56:17 --> ErrorException: Undefined array key "status"
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 03:03:50 --> ParseError: syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Views\front\video.php on line 26.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 3 APPPATH\Controllers\Home.php(48): view('front/video', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-08 04:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-08 04:39:08 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\video.php on line 27.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 4 APPPATH\Controllers\Home.php(48): view('front/video', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:03:31 --> ErrorException: Undefined array key "video"
+in APPPATH\Views\front\video.php on line 36.
+ 1 APPPATH\Views\front\video.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(48): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:04:13 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\video.php on line 27.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 4 APPPATH\Controllers\Home.php(48): view('front/video', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:05:09 --> ErrorException: Undefined array key "video"
+in APPPATH\Views\front\video.php on line 36.
+ 1 APPPATH\Views\front\video.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(48): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:05:44 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\video.php on line 27.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 4 APPPATH\Controllers\Home.php(48): view('front/video', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:07:29 --> ErrorException: Undefined array key "video"
+in APPPATH\Controllers\Home.php on line 43.
+ 1 APPPATH\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:08:31 --> ErrorException: Undefined array key "video"
+in APPPATH\Views\front\video.php on line 36.
+ 1 APPPATH\Views\front\video.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:08:50 --> ErrorException: Undefined variable $video
+in APPPATH\Views\front\video.php on line 36.
+ 1 APPPATH\Views\front\video.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $video', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:10:04 --> ErrorException: Undefined variable $video
+in APPPATH\Views\front\video.php on line 36.
+ 1 APPPATH\Views\front\video.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $video', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(51): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:10:23 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\video.php on line 36.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 4 APPPATH\Controllers\Home.php(51): view('front/video', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:10:44 --> ErrorException: Undefined array key "video"
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:12:24 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\video.php on line 36.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 4 APPPATH\Controllers\Home.php(51): view('front/video', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:16:11 --> ErrorException: Undefined array key "video"
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:16:35 --> ErrorException: Undefined array key "video"
+in APPPATH\Views\front\video.php on line 36.
+ 1 APPPATH\Views\front\video.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:17:07 --> ErrorException: Undefined array key "video"
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:17:36 --> ErrorException: Undefined variable $target
+in APPPATH\Controllers\Home.php on line 49.
+ 1 APPPATH\Controllers\Home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $target', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:20:18 --> ErrorException: Undefined variable $target
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $target', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:20:31 --> ErrorException: Undefined array key "video"
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:21:11 --> ErrorException: Undefined variable $target
+in APPPATH\Controllers\Home.php on line 49.
+ 1 APPPATH\Controllers\Home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $target', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:21:37 --> ErrorException: Undefined variable $video
+in APPPATH\Views\front\video.php on line 35.
+ 1 APPPATH\Views\front\video.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $video', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(51): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:22:40 --> ErrorException: Undefined variable $video
+in APPPATH\Views\front\video.php on line 35.
+ 1 APPPATH\Views\front\video.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $video', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(51): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:22:40 --> ErrorException: Undefined variable $video
+in APPPATH\Views\front\video.php on line 35.
+ 1 APPPATH\Views\front\video.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $video', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(51): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:23:09 --> ErrorException: Undefined variable $video
+in APPPATH\Controllers\Home.php on line 49.
+ 1 APPPATH\Controllers\Home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $video', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 05:23:21 --> ErrorException: Undefined variable $videos
+in APPPATH\Views\front\video.php on line 35.
+ 1 APPPATH\Views\front\video.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videos', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(51): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 06:45:48 --> ErrorException: Undefined variable $video
+in APPPATH\Views\front\video.php on line 38.
+ 1 APPPATH\Views\front\video.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $video', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(51): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 06:46:06 --> ErrorException: Undefined variable $target
+in APPPATH\Views\front\video.php on line 38.
+ 1 APPPATH\Views\front\video.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $target', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(51): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 06:46:36 --> ErrorException: Undefined array key "video"
+in APPPATH\Views\front\video.php on line 38.
+ 1 APPPATH\Views\front\video.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(51): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 06:46:49 --> ErrorException: Undefined array key "videos"
+in APPPATH\Views\front\video.php on line 38.
+ 1 APPPATH\Views\front\video.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "videos"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(51): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 06:47:32 --> ErrorException: Undefined array key "video"
+in APPPATH\Views\front\video.php on line 39.
+ 1 APPPATH\Views\front\video.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(51): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 10:53:58 --> Error: Class "App\Controllers\Purchsed" not found
+in APPPATH\Controllers\Home.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->list()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 10:54:56 --> Error: Class "App\Controllers\Purchsed" not found
+in APPPATH\Controllers\Home.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->list()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 10:55:10 --> ErrorException: Undefined variable $courses
+in APPPATH\Views\front\course_list.php on line 52.
+ 1 APPPATH\Views\front\course_list.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courses', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\course_list.php', 52)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\course_list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/course_list', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('front/course_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->list()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 10:55:31 --> ErrorException: Undefined variable $courses
+in APPPATH\Views\front\course_list.php on line 52.
+ 1 APPPATH\Views\front\course_list.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courses', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\course_list.php', 52)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\course_list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/course_list', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('front/course_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->list()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 11:13:34 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::ge()
+in APPPATH\Config\Routes.php on line 32.
+ 1 SYSTEMPATH\Router\RouteCollection.php(344): require()
+ 2 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 11:14:57 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit('4')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 11:14:58 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit('4')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 11:18:59 --> ErrorException: Undefined array key "name"
+in APPPATH\Views\front\edit.php on line 57.
+ 1 APPPATH\Views\front\edit.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\edit.php', 57)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/edit', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('front/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 11:24:50 --> BadMethodCallException: Call to undefined method App\Models\Chapter::finAll
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Home.php(65): CodeIgniter\Model->__call('finAll', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit('4')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 11:27:00 --> ErrorException: Undefined array key 0
+in APPPATH\Views\front\edit.php on line 57.
+ 1 APPPATH\Views\front\edit.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\edit.php', 57)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/edit', [], true)
+ 5 APPPATH\Controllers\Home.php(67): view('front/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit('8')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 11:30:49 --> ErrorException: Undefined array key "status"
+in APPPATH\Views\front\course_list.php on line 60.
+ 1 APPPATH\Views\front\course_list.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\course_list.php', 60)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\course_list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/course_list', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('front/course_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->list()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 15:38:08 --> Error: Call to a member function where() on array
+in APPPATH\Controllers\Home.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 15:42:13 --> ErrorException: Undefined variable $status
+in APPPATH\Views\front\home.php on line 58.
+ 1 APPPATH\Views\front\home.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 58)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-08 15:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 15:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 15:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-08 16:04:07 --> ErrorException: Undefined variable $paid
+in APPPATH\Views\front\home.php on line 58.
+ 1 APPPATH\Views\front\home.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paid', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 58)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 16:05:40 --> ErrorException: Undefined array key "status"
+in APPPATH\Controllers\Home.php on line 21.
+ 1 APPPATH\Controllers\Home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 16:06:07 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\Home.php on line 22.
+ 1 APPPATH\Controllers\Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 16:18:28 --> ErrorException: Undefined array key "image"
+in APPPATH\Views\front\home.php on line 64.
+ 1 APPPATH\Views\front\home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 16:39:34 --> ErrorException: Undefined variable $unpaid
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unpaid', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-08 16:39:47 --> ErrorException: Undefined variable $unpaid
+in APPPATH\Views\front\home.php on line 63.
+ 1 APPPATH\Views\front\home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unpaid', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 63)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')

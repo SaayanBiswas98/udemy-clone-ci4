@@ -1,0 +1,799 @@
+CRITICAL - 2024-02-06 02:14:51 --> Error: Class "App\Controllers\Chapter" not found
+in APPPATH\Controllers\Videocontroller.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 02:16:06 --> ErrorException: Undefined variable $description
+in APPPATH\Controllers\Videocontroller.php on line 34.
+ 1 APPPATH\Controllers\Videocontroller.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $description', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+ERROR - 2024-02-06 02:16:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\udemy\udemy-clone\ci4\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 D:\udemy\udemy-clone\ci4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\udemy\udemy-clone\ci4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\udemy\udemy-clone\ci4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\udemy\udemy-clone\ci4\app\Controllers\Videocontroller.php(37): CodeIgniter\Model->insert(Array)
+#8 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+#9 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+#10 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\udemy\udemy-clone\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\udemy\udemy-clone\ci4\system\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\udemy\udemy-clone\ci4\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#3 D:\udemy\udemy-clone\ci4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#4 D:\udemy\udemy-clone\ci4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#5 D:\udemy\udemy-clone\ci4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#6 D:\udemy\udemy-clone\ci4\app\Controllers\Videocontroller.php(37): CodeIgniter\Model->insert(Array)
+#7 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+#8 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+#9 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\udemy\udemy-clone\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\udemy\udemy-clone\ci4\system\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-...')
+#12 {main}
+CRITICAL - 2024-02-06 02:16:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `chapters` (`description`) VALUES (:description:)', [...], false)
+ 3 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Videocontroller.php(37): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+ERROR - 2024-02-06 02:19:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\udemy\udemy-clone\ci4\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 D:\udemy\udemy-clone\ci4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\udemy\udemy-clone\ci4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\udemy\udemy-clone\ci4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\udemy\udemy-clone\ci4\app\Controllers\Videocontroller.php(37): CodeIgniter\Model->insert(Array)
+#8 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+#9 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+#10 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\udemy\udemy-clone\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\udemy\udemy-clone\ci4\system\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\udemy\udemy-clone\ci4\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#3 D:\udemy\udemy-clone\ci4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#4 D:\udemy\udemy-clone\ci4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#5 D:\udemy\udemy-clone\ci4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#6 D:\udemy\udemy-clone\ci4\app\Controllers\Videocontroller.php(37): CodeIgniter\Model->insert(Array)
+#7 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+#8 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+#9 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\udemy\udemy-clone\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\udemy\udemy-clone\ci4\system\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-...')
+#12 {main}
+CRITICAL - 2024-02-06 02:19:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `chapters` (`description`) VALUES (:description:)', [...], false)
+ 3 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Videocontroller.php(37): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 02:54:32 --> Error: Class "App\Controllers\Courses" not found
+in APPPATH\Controllers\Videocontroller.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+ERROR - 2024-02-06 02:55:00 --> mysqli_sql_exception: Column 'name' cannot be null in D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `co...', 0)
+#1 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 D:\udemy\udemy-clone\ci4\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 D:\udemy\udemy-clone\ci4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\udemy\udemy-clone\ci4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\udemy\udemy-clone\ci4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\udemy\udemy-clone\ci4\app\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert(Array)
+#8 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+#9 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+#10 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\udemy\udemy-clone\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\udemy\udemy-clone\ci4\system\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-...')
+#13 {main}
+CRITICAL - 2024-02-06 02:55:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (:name:, :description:, :image:, :price:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 02:55:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (NULL, \'this is the 1st ever post\', \'1707188100_5d386286036ff69b17bc.png\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (NULL, \'this is the 1st ever post\', \'1707188100_5d386286036ff69b17bc.png\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (:name:, :description:, :image:, :price:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 02:55:00 --> [Caused by] mysqli_sql_exception: Column 'name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (NULL, \'this is the 1st ever post\', \'1707188100_5d386286036ff69b17bc.png\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (NULL, \'this is the 1st ever post\', \'1707188100_5d386286036ff69b17bc.png\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (NULL, \'this is the 1st ever post\', \'1707188100_5d386286036ff69b17bc.png\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (:name:, :description:, :image:, :price:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+ERROR - 2024-02-06 02:56:01 --> mysqli_sql_exception: Column 'price' cannot be null in D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `co...', 0)
+#1 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 D:\udemy\udemy-clone\ci4\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 D:\udemy\udemy-clone\ci4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\udemy\udemy-clone\ci4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\udemy\udemy-clone\ci4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\udemy\udemy-clone\ci4\app\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert(Array)
+#8 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+#9 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+#10 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\udemy\udemy-clone\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\udemy\udemy-clone\ci4\system\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-...')
+#13 {main}
+CRITICAL - 2024-02-06 02:56:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'price' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (:name:, :description:, :image:, :price:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 02:56:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'price' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188161_c74a59cc509730cf44b3.png\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188161_c74a59cc509730cf44b3.png\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (:name:, :description:, :image:, :price:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 02:56:01 --> [Caused by] mysqli_sql_exception: Column 'price' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188161_c74a59cc509730cf44b3.png\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188161_c74a59cc509730cf44b3.png\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188161_c74a59cc509730cf44b3.png\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (:name:, :description:, :image:, :price:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+ERROR - 2024-02-06 02:58:11 --> mysqli_sql_exception: Column 'price' cannot be null in D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `co...', 0)
+#1 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 D:\udemy\udemy-clone\ci4\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 D:\udemy\udemy-clone\ci4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\udemy\udemy-clone\ci4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\udemy\udemy-clone\ci4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\udemy\udemy-clone\ci4\app\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert(Array)
+#8 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+#9 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+#10 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\udemy\udemy-clone\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\udemy\udemy-clone\ci4\system\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-...')
+#13 {main}
+CRITICAL - 2024-02-06 02:58:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'price' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (:name:, :description:, :image:, :price:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 02:58:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'price' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188291_6274ea384270aeca3620.png\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188291_6274ea384270aeca3620.png\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (:name:, :description:, :image:, :price:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 02:58:11 --> [Caused by] mysqli_sql_exception: Column 'price' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188291_6274ea384270aeca3620.png\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188291_6274ea384270aeca3620.png\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188291_6274ea384270aeca3620.png\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (:name:, :description:, :image:, :price:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+ERROR - 2024-02-06 02:59:11 --> mysqli_sql_exception: Column 'price' cannot be null in D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `co...', 0)
+#1 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 D:\udemy\udemy-clone\ci4\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 D:\udemy\udemy-clone\ci4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\udemy\udemy-clone\ci4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\udemy\udemy-clone\ci4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\udemy\udemy-clone\ci4\app\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert(Array)
+#8 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+#9 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+#10 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\udemy\udemy-clone\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\udemy\udemy-clone\ci4\system\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-...')
+#13 {main}
+CRITICAL - 2024-02-06 02:59:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'price' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (:name:, :description:, :image:, :price:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 02:59:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'price' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188351_93ea8e73b7666e739c7e.png\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188351_93ea8e73b7666e739c7e.png\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (:name:, :description:, :image:, :price:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 02:59:11 --> [Caused by] mysqli_sql_exception: Column 'price' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188351_93ea8e73b7666e739c7e.png\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188351_93ea8e73b7666e739c7e.png\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188351_93ea8e73b7666e739c7e.png\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (:name:, :description:, :image:, :price:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+ERROR - 2024-02-06 02:59:14 --> mysqli_sql_exception: Column 'price' cannot be null in D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `co...', 0)
+#1 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 D:\udemy\udemy-clone\ci4\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 D:\udemy\udemy-clone\ci4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\udemy\udemy-clone\ci4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\udemy\udemy-clone\ci4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\udemy\udemy-clone\ci4\app\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert(Array)
+#8 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+#9 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+#10 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\udemy\udemy-clone\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\udemy\udemy-clone\ci4\system\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-...')
+#13 {main}
+CRITICAL - 2024-02-06 02:59:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'price' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (:name:, :description:, :image:, :price:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 02:59:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'price' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188354_de3b3c16e9b9beead443.png\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188354_de3b3c16e9b9beead443.png\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (:name:, :description:, :image:, :price:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 02:59:14 --> [Caused by] mysqli_sql_exception: Column 'price' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188354_de3b3c16e9b9beead443.png\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188354_de3b3c16e9b9beead443.png\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (\'Web development\', \'this is the 1st ever post\', \'1707188354_de3b3c16e9b9beead443.png\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `courses` (`name`, `description`, `image`, `price`) VALUES (:name:, :description:, :image:, :price:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Videocontroller.php(34): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->course_create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 07:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 07:50:13 --> ErrorException: Undefined array key "id"
+in APPPATH\Controllers\Videocontroller.php on line 47.
+ 1 APPPATH\Controllers\Videocontroller.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 07:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 07:51:25 --> ErrorException: Attempt to read property "id" on array
+in APPPATH\Controllers\Videocontroller.php on line 47.
+ 1 APPPATH\Controllers\Videocontroller.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 07:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 07:51:55 --> ErrorException: Undefined array key 0
+in APPPATH\Controllers\Videocontroller.php on line 47.
+ 1 APPPATH\Controllers\Videocontroller.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 07:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 07:54:46 --> ErrorException: Undefined variable $id
+in APPPATH\Controllers\Videocontroller.php on line 64.
+ 1 APPPATH\Controllers\Videocontroller.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 07:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 07:55:35 --> ErrorException: Attempt to read property "id" on array
+in APPPATH\Controllers\Videocontroller.php on line 47.
+ 1 APPPATH\Controllers\Videocontroller.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 07:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 07:56:10 --> ErrorException: Undefined array key "id"
+in APPPATH\Controllers\Videocontroller.php on line 47.
+ 1 APPPATH\Controllers\Videocontroller.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 07:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 08:01:57 --> ErrorException: Attempt to read property "id" on array
+in APPPATH\Controllers\Videocontroller.php on line 47.
+ 1 APPPATH\Controllers\Videocontroller.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 08:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 08:05:31 --> ErrorException: Undefined variable $chapters
+in APPPATH\Views\front\courses.php on line 73.
+ 1 APPPATH\Views\front\courses.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chapters', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\courses.php', 73)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\courses.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/courses', [], true)
+ 5 APPPATH\Controllers\Videocontroller.php(10): view('front/courses')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 08:12:16 --> ErrorException: Undefined variable $chapters
+in APPPATH\Views\front\courses.php on line 73.
+ 1 APPPATH\Views\front\courses.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chapters', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\courses.php', 73)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\courses.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/courses', [], true)
+ 5 APPPATH\Controllers\Videocontroller.php(16): view('front/courses')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->courseview()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 08:13:58 --> ErrorException: Undefined variable $chapters
+in APPPATH\Views\front\courses.php on line 73.
+ 1 APPPATH\Views\front\courses.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chapters', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\courses.php', 73)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\courses.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/courses', [], true)
+ 5 APPPATH\Controllers\Videocontroller.php(19): view('front/courses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->courseview()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 08:14:09 --> ErrorException: Undefined variable $chapters
+in APPPATH\Controllers\Videocontroller.php on line 18.
+ 1 APPPATH\Controllers\Videocontroller.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chapters', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->courseview()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 08:14:21 --> ErrorException: Undefined variable $chapters
+in APPPATH\Views\front\courses.php on line 73.
+ 1 APPPATH\Views\front\courses.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chapters', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\courses.php', 73)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\courses.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/courses', [], true)
+ 5 APPPATH\Controllers\Videocontroller.php(19): view('front/courses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->courseview()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 08:15:07 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\courses.php on line 74.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/courses', [], true)
+ 4 APPPATH\Controllers\Videocontroller.php(19): view('front/courses', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->courseview()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 08:15:29 --> ErrorException: Attempt to read property "title" on string
+in APPPATH\Views\front\courses.php on line 74.
+ 1 APPPATH\Views\front\courses.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on string', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\courses.php', 74)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\courses.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/courses', [], true)
+ 5 APPPATH\Controllers\Videocontroller.php(19): view('front/courses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->courseview()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 08:15:46 --> ErrorException: Attempt to read property "title" on string
+in APPPATH\Views\front\courses.php on line 74.
+ 1 APPPATH\Views\front\courses.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on string', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\courses.php', 74)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\courses.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/courses', [], true)
+ 5 APPPATH\Controllers\Videocontroller.php(19): view('front/courses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->courseview()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 08:40:13 --> ErrorException: Undefined variable $chapters
+in APPPATH\Views\front\courses.php on line 73.
+ 1 APPPATH\Views\front\courses.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chapters', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\courses.php', 73)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\courses.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/courses', [], true)
+ 5 APPPATH\Controllers\Videocontroller.php(10): view('front/courses')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 08:40:14 --> ErrorException: Undefined variable $chapters
+in APPPATH\Views\front\courses.php on line 73.
+ 1 APPPATH\Views\front\courses.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chapters', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\courses.php', 73)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\courses.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/courses', [], true)
+ 5 APPPATH\Controllers\Videocontroller.php(10): view('front/courses')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-06 08:40:46 --> ErrorException: Undefined variable $chapters
+in APPPATH\Views\front\courses.php on line 73.
+ 1 APPPATH\Views\front\courses.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chapters', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\courses.php', 73)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\courses.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/courses', [], true)
+ 5 APPPATH\Controllers\Videocontroller.php(10): view('front/courses')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 09:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 09:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 14:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 14:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 14:41:25 --> Error: Undefined constant "App\Controllers\PUBLICPATH"
+in APPPATH\Controllers\Videocontroller.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 14:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 14:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 14:55:39 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::opost()
+in APPPATH\Config\Routes.php on line 24.
+ 1 SYSTEMPATH\Router\RouteCollection.php(344): require()
+ 2 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 15:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 15:04:37 --> Error: Class "App\Models\Cart" not found
+in APPPATH\Controllers\Razorpay.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 15:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 15:06:49 --> Error: Class "App\Controllers\Courses" not found
+in APPPATH\Controllers\Razorpay.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 15:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 15:07:08 --> ErrorException: Undefined variable $id
+in APPPATH\Controllers\Razorpay.php on line 15.
+ 1 APPPATH\Controllers\Razorpay.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 15:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 15:11:07 --> ErrorException: Attempt to read property "price" on array
+in APPPATH\Controllers\Razorpay.php on line 18.
+ 1 APPPATH\Controllers\Razorpay.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "price" on array', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 15:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 15:11:22 --> ErrorException: Undefined variable $totalPrice
+in APPPATH\Controllers\Razorpay.php on line 19.
+ 1 APPPATH\Controllers\Razorpay.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalPrice', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 15:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 15:11:36 --> ErrorException: Undefined variable $products
+in APPPATH\Controllers\Razorpay.php on line 20.
+ 1 APPPATH\Controllers\Razorpay.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 15:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 15:11:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "checkout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('checkout.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('checkout', [], true)
+ 3 APPPATH\Controllers\Razorpay.php(26): view('checkout', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 15:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 15:12:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "purchase.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('purchase.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('purchase', [], true)
+ 3 APPPATH\Controllers\Razorpay.php(26): view('purchase', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 15:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 15:12:55 --> ErrorException: Undefined variable $totalprice
+in APPPATH\Views\front\purchase.php on line 21.
+ 1 APPPATH\Views\front\purchase.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalprice', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchase.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchase.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchase', [], true)
+ 5 APPPATH\Controllers\Razorpay.php(26): view('front/purchase', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 15:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 15:13:23 --> ErrorException: Undefined variable $price
+in APPPATH\Views\front\purchase.php on line 21.
+ 1 APPPATH\Views\front\purchase.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $price', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchase.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchase.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchase', [], true)
+ 5 APPPATH\Controllers\Razorpay.php(26): view('front/purchase', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 15:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 15:13:53 --> ErrorException: Undefined variable $products
+in APPPATH\Views\front\purchase.php on line 54.
+ 1 APPPATH\Views\front\purchase.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchase.php', 54)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchase.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchase', [], true)
+ 5 APPPATH\Controllers\Razorpay.php(26): view('front/purchase', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 15:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 15:17:11 --> ErrorException: Undefined variable $all
+in APPPATH\Controllers\Razorpay.php on line 18.
+ 1 APPPATH\Controllers\Razorpay.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 15:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 15:17:32 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\purchase.php on line 57.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchase', [], true)
+ 4 APPPATH\Controllers\Razorpay.php(27): view('front/purchase', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 15:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 15:18:05 --> ErrorException: Undefined array key "price"
+in APPPATH\Controllers\Razorpay.php on line 18.
+ 1 APPPATH\Controllers\Razorpay.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 15:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 15:18:53 --> ErrorException: Undefined variable $products
+in APPPATH\Views\front\purchase.php on line 56.
+ 1 APPPATH\Views\front\purchase.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchase.php', 56)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchase.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchase', [], true)
+ 5 APPPATH\Controllers\Razorpay.php(26): view('front/purchase', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 15:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 15:19:46 --> ErrorException: Undefined variable $product
+in APPPATH\Views\front\purchase.php on line 58.
+ 1 APPPATH\Views\front\purchase.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchase.php', 58)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchase.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchase', [], true)
+ 5 APPPATH\Controllers\Razorpay.php(27): view('front/purchase', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 15:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 15:19:59 --> ErrorException: Undefined variable $totalprice
+in APPPATH\Views\front\purchase.php on line 62.
+ 1 APPPATH\Views\front\purchase.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalprice', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchase.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchase.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchase', [], true)
+ 5 APPPATH\Controllers\Razorpay.php(27): view('front/purchase', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-06 15:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

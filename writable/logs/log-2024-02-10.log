@@ -1,0 +1,1103 @@
+INFO - 2024-02-10 03:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 03:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 03:28:52 --> Error: Undefined constant "i"
+in APPPATH\Views\front\home.php on line 62.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 4 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:29:11 --> Error: Undefined constant "i"
+in APPPATH\Views\front\home.php on line 61.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 4 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:30:43 --> ErrorException: Undefined array key 3
+in APPPATH\Views\front\home.php on line 61.
+ 1 APPPATH\Views\front\home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:32:25 --> ErrorException: Undefined array key 2
+in APPPATH\Views\front\home.php on line 61.
+ 1 APPPATH\Views\front\home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:32:37 --> ErrorException: Undefined array key 2
+in APPPATH\Views\front\home.php on line 61.
+ 1 APPPATH\Views\front\home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:32:55 --> ErrorException: Undefined array key 2
+in APPPATH\Views\front\home.php on line 61.
+ 1 APPPATH\Views\front\home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:32:55 --> ErrorException: Undefined array key 2
+in APPPATH\Views\front\home.php on line 61.
+ 1 APPPATH\Views\front\home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:33:40 --> ErrorException: Undefined array key 2
+in APPPATH\Views\front\home.php on line 61.
+ 1 APPPATH\Views\front\home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:34:11 --> ErrorException: Undefined array key 2
+in APPPATH\Views\front\home.php on line 61.
+ 1 APPPATH\Views\front\home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:34:24 --> ErrorException: Undefined array key 2
+in APPPATH\Views\front\home.php on line 61.
+ 1 APPPATH\Views\front\home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:35:13 --> ErrorException: Undefined array key 2
+in APPPATH\Views\front\home.php on line 62.
+ 1 APPPATH\Views\front\home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:42:54 --> ErrorException: Undefined variable $id
+in APPPATH\Views\front\home.php on line 62.
+ 1 APPPATH\Views\front\home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:43:13 --> ErrorException: Undefined array key 2
+in APPPATH\Views\front\home.php on line 62.
+ 1 APPPATH\Views\front\home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:43:18 --> ErrorException: Undefined array key 2
+in APPPATH\Views\front\home.php on line 62.
+ 1 APPPATH\Views\front\home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:44:29 --> ErrorException: Undefined array key 2
+in APPPATH\Views\front\home.php on line 62.
+ 1 APPPATH\Views\front\home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 03:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 03:46:51 --> ErrorException: Undefined array key 3
+in APPPATH\Views\front\home.php on line 63.
+ 1 APPPATH\Views\front\home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 63)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:50:06 --> ErrorException: Undefined variable $paids
+in APPPATH\Views\front\home.php on line 63.
+ 1 APPPATH\Views\front\home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paids', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 63)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:50:22 --> ErrorException: Undefined variable $paids
+in APPPATH\Controllers\Home.php on line 22.
+ 1 APPPATH\Controllers\Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paids', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:50:50 --> ErrorException: Undefined variable $paids
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paids', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:50:52 --> ErrorException: Undefined variable $paids
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paids', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:51:11 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\home.php on line 63.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 4 APPPATH\Controllers\Home.php(33): view('front/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:51:32 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\home.php on line 63.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 4 APPPATH\Controllers\Home.php(33): view('front/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:51:59 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\home.php on line 63.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 4 APPPATH\Controllers\Home.php(33): view('front/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:52:30 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\home.php on line 63.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 4 APPPATH\Controllers\Home.php(33): view('front/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:52:32 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\home.php on line 63.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 4 APPPATH\Controllers\Home.php(33): view('front/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:52:44 --> ErrorException: Undefined array key "course_id"
+in APPPATH\Views\front\home.php on line 63.
+ 1 APPPATH\Views\front\home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "course_id"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 63)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(33): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:53:53 --> ErrorException: Undefined array key 0
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:54:07 --> ErrorException: Undefined array key 1
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:55:51 --> ErrorException: Undefined array key 3
+in APPPATH\Views\front\home.php on line 63.
+ 1 APPPATH\Views\front\home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 63)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:56:34 --> ErrorException: Undefined array key 3
+in APPPATH\Views\front\home.php on line 62.
+ 1 APPPATH\Views\front\home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:59:49 --> ErrorException: Uninitialized string offset 2
+in APPPATH\Views\front\home.php on line 63.
+ 1 APPPATH\Views\front\home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 2', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 63)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(33): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 03:59:50 --> ErrorException: Uninitialized string offset 2
+in APPPATH\Views\front\home.php on line 63.
+ 1 APPPATH\Views\front\home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 2', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 63)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(33): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 04:00:47 --> ErrorException: Uninitialized string offset 1
+in APPPATH\Views\front\home.php on line 63.
+ 1 APPPATH\Views\front\home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 1', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 63)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(33): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 04:01:15 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\home.php on line 63.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 4 APPPATH\Controllers\Home.php(33): view('front/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 04:01:16 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\home.php on line 63.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 4 APPPATH\Controllers\Home.php(33): view('front/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 04:01:54 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\home.php on line 63.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 4 APPPATH\Controllers\Home.php(33): view('front/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 04:03:36 --> ErrorException: Attempt to read property "course_id" on string
+in APPPATH\Views\front\home.php on line 63.
+ 1 APPPATH\Views\front\home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "course_id" on string', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 63)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(33): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 04:03:37 --> ErrorException: Attempt to read property "course_id" on string
+in APPPATH\Views\front\home.php on line 63.
+ 1 APPPATH\Views\front\home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "course_id" on string', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 63)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(33): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 04:10:33 --> ErrorException: Undefined variable $course
+in APPPATH\Views\front\home.php on line 57.
+ 1 APPPATH\Views\front\home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $course', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 57)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 04:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 04:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 04:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 04:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 04:36:44 --> Error: Call to a member function where() on array
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 04:36:44 --> Error: Call to a member function where() on array
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 04:38:11 --> ErrorException: Undefined variable $paid
+in APPPATH\Controllers\Home.php on line 21.
+ 1 APPPATH\Controllers\Home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paid', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 04:38:27 --> ErrorException: Undefined variable $paid
+in APPPATH\Views\front\home.php on line 62.
+ 1 APPPATH\Views\front\home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paid', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 04:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 04:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 04:50:02 --> ErrorException: Undefined variable $unpaids
+in APPPATH\Views\front\home.php on line 72.
+ 1 APPPATH\Views\front\home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unpaids', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 72)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 04:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 04:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 04:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 07:41:50 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 54.
+ 1 APPPATH\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 07:42:06 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 54.
+ 1 APPPATH\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('10')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 07:43:00 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 54.
+ 1 APPPATH\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 07:44:33 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 54.
+ 1 APPPATH\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 07:44:47 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 54.
+ 1 APPPATH\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 07:45:47 --> ErrorException: Undefined variable $status
+in APPPATH\Controllers\Home.php on line 57.
+ 1 APPPATH\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 07:56:41 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 54.
+ 1 APPPATH\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 07:58:16 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 55.
+ 1 APPPATH\Controllers\Home.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 08:07:38 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Views\front\video.php on line 47.
+ 1 APPPATH\Views\front\video.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('11')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 08:08:25 --> ErrorException: Undefined variable $intro
+in APPPATH\Views\front\video.php on line 47.
+ 1 APPPATH\Views\front\video.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $intro', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('11')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 08:08:41 --> ErrorException: Undefined variable $intro
+in APPPATH\Views\front\video.php on line 47.
+ 1 APPPATH\Views\front\video.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $intro', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('11')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 08:09:08 --> ErrorException: Undefined variable $intro
+in APPPATH\Views\front\video.php on line 47.
+ 1 APPPATH\Views\front\video.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $intro', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('11')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 08:09:49 --> ErrorException: Undefined variable $intro
+in APPPATH\Views\front\video.php on line 47.
+ 1 APPPATH\Views\front\video.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $intro', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('11')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 08:10:14 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Views\front\video.php on line 47.
+ 1 APPPATH\Views\front\video.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('11')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 08:10:47 --> ErrorException: Undefined variable $courses
+in APPPATH\Controllers\Home.php on line 58.
+ 1 APPPATH\Controllers\Home.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courses', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 08:12:05 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Views\front\video.php on line 47.
+ 1 APPPATH\Views\front\video.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 08:18:21 --> ErrorException: Undefined variable $intro
+in APPPATH\Controllers\Home.php on line 60.
+ 1 APPPATH\Controllers\Home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $intro', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 08:18:37 --> ErrorException: Undefined variable $open
+in APPPATH\Views\front\video.php on line 47.
+ 1 APPPATH\Views\front\video.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $open', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(62): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('11')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 08:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 08:25:50 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Videocontroller.php on line 51.
+ 1 APPPATH\Controllers\Videocontroller.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 08:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 08:33:35 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Videocontroller.php on line 51.
+ 1 APPPATH\Controllers\Videocontroller.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 08:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 08:36:08 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Videocontroller.php on line 51.
+ 1 APPPATH\Controllers\Videocontroller.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 08:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 08:37:20 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Videocontroller.php on line 52.
+ 1 APPPATH\Controllers\Videocontroller.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 08:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-10 08:43:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 in D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE courses ...', 0)
+#1 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE courses ...')
+#2 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE courses ...')
+#3 D:\udemy\udemy-clone\ci4\app\Controllers\Razorpay.php(39): CodeIgniter\Database\BaseConnection->query('UPDATE courses ...')
+#4 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(941): App\Controllers\Razorpay->index('11')
+#5 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+#6 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\udemy\udemy-clone\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 D:\udemy\udemy-clone\ci4\system\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-...')
+#9 {main}
+CRITICAL - 2024-02-10 08:43:33 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Razorpay.php(39): CodeIgniter\Database\BaseConnection->query('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 08:43:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 3 APPPATH\Controllers\Razorpay.php(39): CodeIgniter\Database\BaseConnection->query('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('11')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 08:43:33 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE courses 
+        SET purchased= "paid" WHERE id = ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 4 APPPATH\Controllers\Razorpay.php(39): CodeIgniter\Database\BaseConnection->query('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('11')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 08:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-10 08:43:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 in D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE courses ...', 0)
+#1 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE courses ...')
+#2 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE courses ...')
+#3 D:\udemy\udemy-clone\ci4\app\Controllers\Razorpay.php(39): CodeIgniter\Database\BaseConnection->query('UPDATE courses ...')
+#4 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(941): App\Controllers\Razorpay->index('10')
+#5 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+#6 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\udemy\udemy-clone\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 D:\udemy\udemy-clone\ci4\system\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-...')
+#9 {main}
+CRITICAL - 2024-02-10 08:43:57 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Razorpay.php(39): CodeIgniter\Database\BaseConnection->query('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('10')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 08:43:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 3 APPPATH\Controllers\Razorpay.php(39): CodeIgniter\Database\BaseConnection->query('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('10')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 08:43:57 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE courses 
+        SET purchased= "paid" WHERE id = ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 4 APPPATH\Controllers\Razorpay.php(39): CodeIgniter\Database\BaseConnection->query('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('10')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 08:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-10 08:45:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 in D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE courses ...', 0)
+#1 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE courses ...')
+#2 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE courses ...')
+#3 D:\udemy\udemy-clone\ci4\app\Controllers\Razorpay.php(39): CodeIgniter\Database\BaseConnection->query('UPDATE courses ...')
+#4 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(941): App\Controllers\Razorpay->index('11')
+#5 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+#6 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\udemy\udemy-clone\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 D:\udemy\udemy-clone\ci4\system\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-...')
+#9 {main}
+CRITICAL - 2024-02-10 08:45:47 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Razorpay.php(39): CodeIgniter\Database\BaseConnection->query('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 08:45:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 3 APPPATH\Controllers\Razorpay.php(39): CodeIgniter\Database\BaseConnection->query('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('11')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 08:45:47 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE courses 
+        SET purchased= "paid" WHERE id = ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 4 APPPATH\Controllers\Razorpay.php(39): CodeIgniter\Database\BaseConnection->query('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('11')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 08:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 08:47:30 --> ErrorException: Undefined variable $products
+in APPPATH\Controllers\Razorpay.php on line 20.
+ 1 APPPATH\Controllers\Razorpay.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 08:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 08:48:17 --> ErrorException: Undefined variable $product
+in APPPATH\Controllers\Razorpay.php on line 21.
+ 1 APPPATH\Controllers\Razorpay.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 08:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 08:48:31 --> ErrorException: Undefined variable $product
+in APPPATH\Controllers\Razorpay.php on line 21.
+ 1 APPPATH\Controllers\Razorpay.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 08:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 08:49:06 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Razorpay.php on line 20.
+ 1 APPPATH\Controllers\Razorpay.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 08:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-10 08:49:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 in D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE courses ...', 0)
+#1 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE courses ...')
+#2 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE courses ...')
+#3 D:\udemy\udemy-clone\ci4\app\Controllers\Razorpay.php(39): CodeIgniter\Database\BaseConnection->query('UPDATE courses ...')
+#4 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(941): App\Controllers\Razorpay->index('11')
+#5 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+#6 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\udemy\udemy-clone\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 D:\udemy\udemy-clone\ci4\system\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-...')
+#9 {main}
+CRITICAL - 2024-02-10 08:49:48 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Razorpay.php(39): CodeIgniter\Database\BaseConnection->query('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 08:49:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 3 APPPATH\Controllers\Razorpay.php(39): CodeIgniter\Database\BaseConnection->query('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('11')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-10 08:49:48 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE courses 
+        SET purchased= "paid" WHERE id = ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 4 APPPATH\Controllers\Razorpay.php(39): CodeIgniter\Database\BaseConnection->query('UPDATE courses 
+        SET purchased= "paid" WHERE id = ')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('11')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 08:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 08:50:22 --> ErrorException: Undefined variable $product
+in APPPATH\Controllers\Razorpay.php on line 21.
+ 1 APPPATH\Controllers\Razorpay.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 08:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 08:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 08:52:14 --> ErrorException: Undefined variable $product
+in APPPATH\Controllers\Razorpay.php on line 21.
+ 1 APPPATH\Controllers\Razorpay.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 08:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 08:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 08:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 08:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 08:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 08:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 14:17:59 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Videocontroller.php on line 52.
+ 1 APPPATH\Controllers\Videocontroller.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 14:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 15:07:00 --> ErrorException: Undefined variable $chapters
+in APPPATH\Controllers\Home.php on line 57.
+ 1 APPPATH\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chapters', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('13')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 15:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 15:07:58 --> ErrorException: Undefined variable $all
+in APPPATH\Views\front\video.php on line 26.
+ 1 APPPATH\Views\front\video.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(68): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('13')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 15:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 15:12:28 --> ErrorException: Undefined variable $all
+in APPPATH\Controllers\Home.php on line 67.
+ 1 APPPATH\Controllers\Home.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('13')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 15:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 15:12:53 --> ErrorException: Undefined variable $all
+in APPPATH\Controllers\Home.php on line 67.
+ 1 APPPATH\Controllers\Home.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('13')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 15:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 15:13:10 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\video.php on line 55.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 4 APPPATH\Controllers\Home.php(70): view('front/video', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('13')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 15:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 15:15:58 --> ErrorException: Undefined variable $chapters
+in APPPATH\Views\front\video.php on line 26.
+ 1 APPPATH\Views\front\video.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chapters', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(69): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('13')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 15:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-10 15:16:11 --> ErrorException: Undefined variable $locked
+in APPPATH\Views\front\video.php on line 31.
+ 1 APPPATH\Views\front\video.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $locked', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php', 31)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\video.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/video', [], true)
+ 5 APPPATH\Controllers\Home.php(69): view('front/video', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->play('13')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-10 15:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 15:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

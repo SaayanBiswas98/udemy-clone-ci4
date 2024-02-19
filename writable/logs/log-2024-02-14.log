@@ -1,0 +1,241 @@
+INFO - 2024-02-14 16:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-14 16:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-14 16:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-14 16:37:26 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Videocontroller.php on line 108.
+ 1 APPPATH\Controllers\Videocontroller.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo(null)
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 16:38:14 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Videocontroller.php on line 108.
+ 1 APPPATH\Controllers\Videocontroller.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo(null)
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 16:39:06 --> ErrorException: Undefined variable $name
+in APPPATH\Controllers\Videocontroller.php on line 111.
+ 1 APPPATH\Controllers\Videocontroller.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo(null)
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 16:39:23 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\front\show.php on line 15.
+ 1 APPPATH\Views\front\show.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\show.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/show', [], true)
+ 5 APPPATH\Controllers\Videocontroller.php(112): view('front/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo(null)
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 16:40:45 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\front\show.php on line 15.
+ 1 APPPATH\Views\front\show.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\show.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/show', [], true)
+ 5 APPPATH\Controllers\Videocontroller.php(111): view('front/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('20')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 16:41:01 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Videocontroller.php on line 107.
+ 1 APPPATH\Controllers\Videocontroller.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('20')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-14 16:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-14 16:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-14 16:44:28 --> ErrorException: Undefined variable $course
+in APPPATH\Controllers\Videocontroller.php on line 106.
+ 1 APPPATH\Controllers\Videocontroller.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $course', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 106)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('13')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 16:44:59 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\Videocontroller.php on line 106.
+ 1 APPPATH\Controllers\Videocontroller.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 106)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('13')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 16:45:20 --> ErrorException: Undefined variable $chapters
+in APPPATH\Views\front\show.php on line 27.
+ 1 APPPATH\Views\front\show.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chapters', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\show.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/show', [], true)
+ 5 APPPATH\Controllers\Videocontroller.php(111): view('front/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('13')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 16:45:57 --> ErrorException: Undefined variable $videos
+in APPPATH\Views\front\show.php on line 39.
+ 1 APPPATH\Views\front\show.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videos', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\show.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/show', [], true)
+ 5 APPPATH\Controllers\Videocontroller.php(111): view('front/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('13')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 16:47:10 --> ErrorException: Undefined array key "video"
+in APPPATH\Controllers\Videocontroller.php on line 107.
+ 1 APPPATH\Controllers\Videocontroller.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('13')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 16:47:51 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\show.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/show', [], true)
+ 4 APPPATH\Controllers\Videocontroller.php(112): view('front/show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('13')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 16:48:35 --> ErrorException: Undefined variable $view_status
+in APPPATH\Controllers\Videocontroller.php on line 112.
+ 1 APPPATH\Controllers\Videocontroller.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $view_status', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('13')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 16:49:09 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\show.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/show', [], true)
+ 4 APPPATH\Controllers\Videocontroller.php(114): view('front/show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('13')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 16:53:08 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\show.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/show', [], true)
+ 4 APPPATH\Controllers\Videocontroller.php(118): view('front/show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('13')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 16:54:16 --> ErrorException: Undefined array key "video"
+in APPPATH\Controllers\Videocontroller.php on line 107.
+ 1 APPPATH\Controllers\Videocontroller.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('13')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 16:56:43 --> ErrorException: Undefined variable $view_status
+in APPPATH\Controllers\Videocontroller.php on line 112.
+ 1 APPPATH\Controllers\Videocontroller.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $view_status', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('13')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 16:56:59 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\show.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/show', [], true)
+ 4 APPPATH\Controllers\Videocontroller.php(113): view('front/show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('13')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-14 17:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-14 17:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-14 17:00:26 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\show.php on line 30.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/show', [], true)
+ 4 APPPATH\Controllers\Videocontroller.php(112): view('front/show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('13')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 17:00:47 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\front\show.php on line 30.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/show', [], true)
+ 4 APPPATH\Controllers\Videocontroller.php(112): view('front/show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('13')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 17:01:16 --> ErrorException: Undefined array key "video"
+in APPPATH\Controllers\Videocontroller.php on line 107.
+ 1 APPPATH\Controllers\Videocontroller.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('13')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 17:01:33 --> ErrorException: Undefined variable $videos
+in APPPATH\Views\front\show.php on line 39.
+ 1 APPPATH\Views\front\show.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videos', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\show.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/show', [], true)
+ 5 APPPATH\Controllers\Videocontroller.php(112): view('front/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('13')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 17:02:41 --> ErrorException: Undefined array key "name"
+in APPPATH\Controllers\Videocontroller.php on line 108.
+ 1 APPPATH\Controllers\Videocontroller.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Videocontroller.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('13')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-14 17:03:33 --> ErrorException: Undefined variable $chapter
+in APPPATH\Views\front\show.php on line 28.
+ 1 APPPATH\Views\front\show.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chapter', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\show.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\show.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/show', [], true)
+ 5 APPPATH\Controllers\Videocontroller.php(112): view('front/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Videocontroller->targetedvideo('13')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Videocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')

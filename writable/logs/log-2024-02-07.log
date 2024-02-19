@@ -1,0 +1,430 @@
+INFO - 2024-02-07 01:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 01:51:20 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Razorpay.php on line 18.
+ 1 APPPATH\Controllers\Razorpay.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-07 01:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 01:56:40 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Razorpay.php on line 18.
+ 1 APPPATH\Controllers\Razorpay.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-07 01:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 01:57:58 --> ErrorException: Undefined array key "price"
+in APPPATH\Controllers\Razorpay.php on line 18.
+ 1 APPPATH\Controllers\Razorpay.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-07 01:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 01:59:31 --> ErrorException: Attempt to read property "price" on array
+in APPPATH\Controllers\Razorpay.php on line 18.
+ 1 APPPATH\Controllers\Razorpay.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "price" on array', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-07 02:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 02:00:53 --> ErrorException: Undefined array key "price"
+in APPPATH\Controllers\Razorpay.php on line 18.
+ 1 APPPATH\Controllers\Razorpay.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-07 02:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 02:01:13 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Razorpay.php on line 18.
+ 1 APPPATH\Controllers\Razorpay.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-07 02:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 02:03:02 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Razorpay.php on line 20.
+ 1 APPPATH\Controllers\Razorpay.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-07 02:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 02:06:12 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Razorpay.php on line 20.
+ 1 APPPATH\Controllers\Razorpay.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index(null)
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-07 02:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 02:08:14 --> ErrorException: Undefined variable $product
+in APPPATH\Controllers\Razorpay.php on line 21.
+ 1 APPPATH\Controllers\Razorpay.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-07 02:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 02:08:31 --> ErrorException: Undefined variable $name
+in APPPATH\Controllers\Razorpay.php on line 26.
+ 1 APPPATH\Controllers\Razorpay.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-07 02:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-07 02:08:57 --> mysqli_sql_exception: Table 'udemy.purchaseds' doesn't exist in D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\udemy\udemy-clone\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pu...', 0)
+#1 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 D:\udemy\udemy-clone\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 D:\udemy\udemy-clone\ci4\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 D:\udemy\udemy-clone\ci4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\udemy\udemy-clone\ci4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\udemy\udemy-clone\ci4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\udemy\udemy-clone\ci4\app\Controllers\Razorpay.php(30): CodeIgniter\Model->insert(Array)
+#8 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(941): App\Controllers\Razorpay->index('6')
+#9 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+#10 D:\udemy\udemy-clone\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\udemy\udemy-clone\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\udemy\udemy-clone\ci4\system\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-...')
+#13 {main}
+CRITICAL - 2024-02-07 02:08:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'udemy.purchaseds' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `purchaseds` (`status`, `name`, `price`) VALUES (:status:, :name:, :price:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Razorpay.php(30): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 02:08:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'udemy.purchaseds' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `purchaseds` (`status`, `name`, `price`) VALUES (\'paid\', \'Python tutorial\', \'20\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `purchaseds` (`status`, `name`, `price`) VALUES (\'paid\', \'Python tutorial\', \'20\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `purchaseds` (`status`, `name`, `price`) VALUES (:status:, :name:, :price:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Razorpay.php(30): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('6')
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 02:08:58 --> [Caused by] mysqli_sql_exception: Table 'udemy.purchaseds' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `purchaseds` (`status`, `name`, `price`) VALUES (\'paid\', \'Python tutorial\', \'20\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `purchaseds` (`status`, `name`, `price`) VALUES (\'paid\', \'Python tutorial\', \'20\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `purchaseds` (`status`, `name`, `price`) VALUES (\'paid\', \'Python tutorial\', \'20\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `purchaseds` (`status`, `name`, `price`) VALUES (:status:, :name:, :price:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Razorpay.php(30): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('6')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-07 02:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 02:09:24 --> ErrorException: Undefined variable $products
+in APPPATH\Views\front\purchase.php on line 56.
+ 1 APPPATH\Views\front\purchase.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchase.php', 56)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchase.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchase', [], true)
+ 5 APPPATH\Controllers\Razorpay.php(36): view('front/purchase', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-07 02:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 02:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 02:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 02:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 02:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 02:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 02:19:31 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Razorpay.php on line 20.
+ 1 APPPATH\Controllers\Razorpay.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-07 02:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 02:19:58 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Razorpay.php on line 20.
+ 1 APPPATH\Controllers\Razorpay.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Razorpay.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Razorpay->index('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Razorpay))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+INFO - 2024-02-07 02:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 02:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 02:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-07 03:01:41 --> Error: Class "App\Controllers\Purchased" not found
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 03:04:02 --> ErrorException: Attempt to read property "status" on array
+in APPPATH\Controllers\Home.php on line 18.
+ 1 APPPATH\Controllers\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status" on array', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 03:04:19 --> ErrorException: Undefined array key "status"
+in APPPATH\Controllers\Home.php on line 18.
+ 1 APPPATH\Controllers\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 03:16:09 --> ErrorException: Undefined variable $status
+in APPPATH\Views\front\home.php on line 58.
+ 1 APPPATH\Views\front\home.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 58)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 03:16:28 --> ErrorException: Undefined variable $status
+in APPPATH\Views\front\home.php on line 58.
+ 1 APPPATH\Views\front\home.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 58)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 03:21:40 --> ErrorException: Undefined variable $status
+in APPPATH\Views\front\home.php on line 58.
+ 1 APPPATH\Views\front\home.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 58)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 15:47:17 --> ErrorException: Undefined variable $courses
+in APPPATH\Views\front\purchased_course.php on line 53.
+ 1 APPPATH\Views\front\purchased_course.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courses', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php', 53)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchased_course', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('front/purchased_course')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->course_purchased()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 15:47:41 --> ErrorException: Undefined array key "image"
+in APPPATH\Views\front\purchased_course.php on line 55.
+ 1 APPPATH\Views\front\purchased_course.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchased_course', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('front/purchased_course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->course_purchased()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 15:48:39 --> ErrorException: Undefined array key "video"
+in APPPATH\Views\front\purchased_course.php on line 55.
+ 1 APPPATH\Views\front\purchased_course.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchased_course', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('front/purchased_course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->course_purchased()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 15:50:30 --> ErrorException: Undefined array key "video"
+in APPPATH\Views\front\purchased_course.php on line 55.
+ 1 APPPATH\Views\front\purchased_course.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchased_course', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('front/purchased_course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->course_purchased()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 15:50:55 --> ErrorException: Undefined array key "image"
+in APPPATH\Views\front\purchased_course.php on line 55.
+ 1 APPPATH\Views\front\purchased_course.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchased_course', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('front/purchased_course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->course_purchased()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 15:51:41 --> ErrorException: Undefined array key "image"
+in APPPATH\Views\front\purchased_course.php on line 55.
+ 1 APPPATH\Views\front\purchased_course.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchased_course', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('front/purchased_course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->course_purchased()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 15:51:54 --> ErrorException: Undefined array key "image"
+in APPPATH\Views\front\purchased_course.php on line 55.
+ 1 APPPATH\Views\front\purchased_course.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchased_course', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('front/purchased_course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->course_purchased()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 15:52:20 --> ErrorException: Attempt to read property "image" on array
+in APPPATH\Views\front\purchased_course.php on line 55.
+ 1 APPPATH\Views\front\purchased_course.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "image" on array', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchased_course', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('front/purchased_course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->course_purchased()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 16:12:36 --> ErrorException: Undefined array key "image"
+in APPPATH\Views\front\home.php on line 55.
+ 1 APPPATH\Views\front\home.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 16:12:36 --> ErrorException: Undefined array key "image"
+in APPPATH\Views\front\home.php on line 55.
+ 1 APPPATH\Views\front\home.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/home', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('front/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 16:14:35 --> ErrorException: Undefined variable $courses
+in APPPATH\Controllers\Home.php on line 18.
+ 1 APPPATH\Controllers\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courses', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->browse()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 16:16:15 --> ErrorException: Attempt to read property "image" on array
+in APPPATH\Views\front\purchased_course.php on line 55.
+ 1 APPPATH\Views\front\purchased_course.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "image" on array', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchased_course', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('front/purchased_course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->course_purchased()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 16:16:48 --> ErrorException: Attempt to read property "image" on string
+in APPPATH\Views\front\purchased_course.php on line 55.
+ 1 APPPATH\Views\front\purchased_course.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "image" on string', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchased_course', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('front/purchased_course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->course_purchased()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 16:33:28 --> ErrorException: Undefined variable $products
+in APPPATH\Controllers\Home.php on line 32.
+ 1 APPPATH\Controllers\Home.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'D:\\udemy\\udemy-clone\\ci4\\app\\Controllers\\Home.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->course_purchased()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 16:33:50 --> ErrorException: Attempt to read property "image" on string
+in APPPATH\Views\front\purchased_course.php on line 55.
+ 1 APPPATH\Views\front\purchased_course.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "image" on string', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchased_course', [], true)
+ 5 APPPATH\Controllers\Home.php(33): view('front/purchased_course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->course_purchased()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
+CRITICAL - 2024-02-07 16:34:12 --> ErrorException: Undefined variable $images
+in APPPATH\Views\front\purchased_course.php on line 55.
+ 1 APPPATH\Views\front\purchased_course.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $images', 'D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php', 55)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\udemy\\udemy-clone\\ci4\\app\\Views\\front\\purchased_course.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/purchased_course', [], true)
+ 5 APPPATH\Controllers\Home.php(33): view('front/purchased_course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->course_purchased()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\udemy\\udemy-clone\\ci4\\public\\index.php')
